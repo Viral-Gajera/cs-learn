@@ -1,0 +1,27 @@
+display : grid;
+
+gap
+	column-gap
+	row-gap
+
+grid-gap
+	grid-column-gap
+	grid-row-gap
+
+grid-templete-areas
+grid-templete
+	grid-templete-column
+	grid-templete-row
+	grid-area
+		grid-column
+			grid-column-start
+			grid-column-end
+			[grid-column-gap]
+		grid-row
+			grid-row-start
+			grid-row-end
+			[grid-row-gap]
+
+grid-auto-columns
+grid-auto-rows
+grid-auto-flow

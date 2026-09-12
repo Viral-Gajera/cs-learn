@@ -1,0 +1,94 @@
+al.size()
+al.add(Object o)
+al.add(int index, Object o)
+al.get(int index)
+al.set(int index, Object o)
+al.contains(Object o)
+al.indexOf(Object o)
+al.remove(Object o)
+al.remove(int index)
+
+al.sort((a, b)->{return (int) (b - a);});
+
+Integer[] arr = new Integer[al.size()];
+arr = al.toArray(arr);				// ArrayList to Array conversion
+
+
+ll.size()
+ll.clear()
+
+ll.add(Object o)
+ll.add(int index, E element)			// end of this list
+ll.addFirst(Object o)
+ll.addLast(Object o)
+
+ll.get(int index)
+ll.getFirst()
+ll.getLast()
+
+ll.contains(Object o)
+ll.indexOf(Object o)
+
+ll.remove()					// first element
+ll.remove(Object o)				// first occurrence
+ll.remove(int index)
+ll.removeFirst()
+ll.removeLast()
+
+
+v.size()
+v.add(Object o)
+v.add(int index, Object o)
+v.get(int index)
+v.set(int index, Object o)
+v.contains(Object o)
+v.indexOf(Object o)
+v.remove(Object o)				// Object
+v.remove(int index)				// Object
+
+
+s.empty()					// boolean
+s.peek()
+s.pop()
+s.push(Object o)
+s.search(Object o)
+
+hs.size()
+hs.add(Object o)
+hs.contains(Object o)				// boolean 
+hs.remove(Object o)				// Object
+
+	Iterator<Integer> it = set.iterator();
+
+	while (it.hasNext()) {
+		System.out.println(it.next());
+	}
+
+
+hm.size()
+hm.put(Object o, Object o)
+hm.get(Object o)
+hm.getOrDefault(Object o, 0)
+hm.containsKey(Object o) 
+hm.remove(Object o)
+
+hm.entrySet()
+hm.keySet()
+e.getKey()
+e.getValue()
+
+	for (Map.Entry <String,Integer> e : map.entrySet()) {
+		System.out.println(e.getKey());
+		System.out.println(e.getValue());
+	}
+
+
+
+
+
+
+
+
+
+
+
