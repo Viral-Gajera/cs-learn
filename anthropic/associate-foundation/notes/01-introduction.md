@@ -18,7 +18,16 @@ Four decisions that sit at the front of every claude interaction
 3. iterate to improve output quality | refine prompts based on output
 4. adapting strategy by task type | analysis, research, drafting, brainstorming
 
-## 3. Evaluating & Validating Claude's Output
+## 3. Evaluating & Validating Output
+
+- discernment | accuracy, completeness, fitness | check against 1. requirements, 2. source material, 3. professional standards | stakes calibration | a three-way triage
+- hallucinations, inconsistencies & bias
+- fact-checking & grounding | permission to not know, source restriction, auditable citation, quote-grounding
+- diligence: when review is non-negotiable | risk thresholds 1. stakes 2. reversibility 3. audience 4. regulatory exposure
+- editing & adapting for audience
+- choosing output formats
+
+discernment is how you review; diligence is why you must.
 
 ## 4. Workflow Integration & Solution Design
 
