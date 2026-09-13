@@ -1,6 +1,6 @@
 # Eight Lessons
 
-## 1. Claude Platform & Model Foundations
+## 1. Foundations
 
 Four decisions that sit at the front of every claude interaction
 
@@ -9,7 +9,14 @@ Four decisions that sit at the front of every claude interaction
 - choosing model | haiku, sonnet, opus
 - context management | long conversations degrade as context fills | restart, summarize, or persist
 
-## 2. Prompting & Task Execution
+## 2. Prompting
+
+- the competency of telling claude precisely what you want | description
+
+1. anatomy of a prompt | role, context, task, constraints, output format
+2. task decomposition | divide single prompt into multiple prompts (multi-step prompting)
+3. iterate to improve output quality | refine prompts based on output
+4. adapting strategy by task type | analysis, research, drafting, brainstorming
 
 ## 3. Evaluating & Validating Claude's Output
 
