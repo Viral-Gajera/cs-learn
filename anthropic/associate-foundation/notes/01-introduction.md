@@ -31,6 +31,14 @@ discernment is how you review; diligence is why you must.
 
 ## 4. Workflow Integration & Solution Design
 
+decide which step to delegate to claude
+
+- analyzing requirements & use cases | using claude
+- research, planning & process optimization | using claude
+- solution design, development & iteration | using claude
+- delegation mapping | for each workflow step, decide who owns it: AI, a human, or both together.
+- communicating value & limitations | of claude to stakeholders
+
 ## 5. Configuration & Knowledge Management
 
 ## 6. Governance, Risk & Responsible Use
