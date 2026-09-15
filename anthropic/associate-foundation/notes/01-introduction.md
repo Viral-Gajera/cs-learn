@@ -15,17 +15,17 @@ Four decisions that sit at the front of every claude interaction
 
 1. anatomy of a prompt | role, context, task, constraints, output format
 2. task decomposition | divide single prompt into multiple prompts (multi-step prompting)
-3. iterate to improve output quality | refine prompts based on output
+3. refine prompts based on output | check with part of role/context/task/constraints/format is missing or unclear
 4. adapting strategy by task type | analysis, research, drafting, brainstorming
 
-## 3. Evaluating & Validating Output
+## 3. Output Evaluation & Validating
 
 - discernment | accuracy, completeness, fitness | check against 1. requirements, 2. source material, 3. professional standards | stakes calibration | a three-way triage
 - hallucinations, inconsistencies & bias
 - fact-checking & grounding | permission to not know, source restriction, auditable citation, quote-grounding
 - diligence: when review is non-negotiable | risk thresholds 1. stakes 2. reversibility 3. audience 4. regulatory exposure
-- editing & adapting for audience
-- choosing output formats
+- editing & adapting for audience | clarity, tone, formatting
+- choosing output formats | inline, artifact, structured
 
 discernment is how you review; diligence is why you must.
 
