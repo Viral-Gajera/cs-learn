@@ -41,8 +41,25 @@ decide which step to delegate to claude
 
 ## 5. Configuration & Knowledge Management
 
+- configuring projects | standing instructions, knowledge base, scoped memory | skills
+- connectors & uploaded knowledge
+- system-level instructions that stick
+- maintaining configurations | schedule regular maintenance for instructions, knowledge, skills, and memory
+
 ## 6. Governance, Risk & Responsible Use
+
+- appropriate vs inappropriate use cases
+- skill trust & feature-level risk | source-and-permissions check before you enable skills | least privilege
+- data sensitivity, privacy & feature controls | classify data before you upload | feature-specific controls: code execution sandbox, memory persistence, incognito mode, org-level memory controls
+- organizational policies & diligence |
+- ethical implications | bias, fairness, transparency
 
 ## 7. Troubleshooting & Optimization
 
+- diagnosing underperforming prompts & outputs | under-specification, context overload, wrong feature or model, stale configuration
+- adjusting approach from feedback
+- optimizing workflows | find redundancy, consolidate
+
 ## 8. Course Summary & Next Steps
+
+- description, discernment, diligence, delegation
