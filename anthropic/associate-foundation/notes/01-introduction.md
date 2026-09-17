@@ -1,4 +1,4 @@
-# Eight Lessons
+# Associate Foundation Course Notes
 
 ## 1. Foundations
 
