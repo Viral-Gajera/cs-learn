@@ -15,7 +15,7 @@ Four decisions that sit at the front of every claude interaction
 
 1. anatomy of a prompt | role, context, task, constraints, output format
 2. task decomposition | divide single prompt into multiple prompts (multi-step prompting)
-3. refine prompts based on output | check with part of role/context/task/constraints/format is missing or unclear
+3. refine prompts based on output | check which part of role/context/task/constraints/format is missing or unclear
 4. adapting strategy by task type | analysis, research, drafting, brainstorming
 
 ## 3. Output Evaluation & Validating
@@ -51,7 +51,7 @@ decide which step to delegate to claude
 - appropriate vs inappropriate use cases
 - skill trust & feature-level risk | source-and-permissions check before you enable skills | least privilege
 - data sensitivity, privacy & feature controls | classify data before you upload | feature-specific controls: code execution sandbox, memory persistence, incognito mode, org-level memory controls
-- organizational policies & diligence |
+- organizational policies & diligence
 - ethical implications | bias, fairness, transparency
 
 ## 7. Troubleshooting & Optimization
