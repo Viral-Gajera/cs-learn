@@ -48,6 +48,8 @@ decide which step to delegate to claude
 
 ## 6. Governance, Risk & Responsible Use
 
+governance tells how AI should be used
+
 - appropriate vs inappropriate use cases
 - skill trust & feature-level risk | source-and-permissions check before you enable skills | least privilege
 - data sensitivity, privacy & feature controls | classify data before you upload | feature-specific controls: code execution sandbox, memory persistence, incognito mode, org-level memory controls
