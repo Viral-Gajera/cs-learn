@@ -6,9 +6,9 @@ It is used to store a large amount of strings. The pattern matching can be done 
 - Root is an empty node.
 - Same prefix of word is not repeated.
 
-<img src="Trie 1.jpg">
+<img src="trie-1.jpg">
 
-<img src="Trie 2.jpg">
+<img src="trie-2.jpg">
 
 ## Implementation
 
@@ -80,16 +80,16 @@ class Tries {
 
 - Merge child node with parent node, if parent node that only one child.
 
-<img src="Compressed Trie.jpg">
+<img src="compressed-trie.jpg">
 
 
 # Ternary Search Trees
 
-<img src="Ternary Search Trees 1.jpg">
+<img src="ternary-search-trees-1.jpg">
 
-<img src="Ternary Search Trees 2.jpg">
+<img src="ternary-search-trees-2.jpg">
 
-<img src="Ternary Search Trees 3.jpg">
+<img src="ternary-search-trees-3.jpg">
 
 
 

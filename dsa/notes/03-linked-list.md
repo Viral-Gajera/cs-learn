@@ -136,7 +136,7 @@ type [][] arr = {					 	// declaration & initalizing
     1. Row-wise mapping: The content of the array A[] will be `{1, 5, 3, 2, 7, 1, 3, 1, 4, 2, 9, 2, 8, 1, 7}`.
     2. Column-wise mapping: The content of the array A[] will be `{1, 5, 2, 3, 9, 3, 7, 1, 2, 1, 4, 8, 2, 1, 7}`.
     
-    <img src="Lower Triangular Sparse Matrix.jpg">
+    <img src="lower-triangular-sparse-matrix.jpg">
 
   
 
@@ -145,7 +145,7 @@ type [][] arr = {					 	// declaration & initalizing
 - All elements **below** the main diagonal have a value zero.
 - The mapping between 1D array and 2D matrix can be done as Row wise or Column wise as above.
 
-<img src="Upper Triangular Sparse Matrix.jpg">
+<img src="upper-triangular-sparse-matrix.jpg">
 
   
 
@@ -156,7 +156,7 @@ type [][] arr = {					 	// declaration & initalizing
   
     Diagonal-wise mapping: The content of the array A[] will be `{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 3, 4, 5, 6 }`
 
-<img src="Tridiagonal Sparse Matrix.jpg">
+<img src="tridiagonal-sparse-matrix.jpg">
 
   
 
@@ -168,7 +168,7 @@ type [][] arr = {					 	// declaration & initalizing
 - A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image.
   
 
-<img src="Linked List.jpg">
+<img src="linked-list.jpg">
 
 
 
@@ -199,7 +199,7 @@ Linked List:
 - Simplest type of linked list in which every node contains data and pointer.
 - A singly linked list allows traversal of data only in one direction.
 
-<img src="Singly Linked List.jpg">
+<img src="singly-linked-list.jpg">
 
 ## Operations on linked list
 
@@ -390,7 +390,7 @@ class LinkedList<T> {
 - Circular linked lists are typically implemented using a singly linked list data structure. This means that each node in the list is connected to the next node via a pointer.
 - The last node in the list is then connected back to the first node, creating the ring-like structure.
 
-<img src="Circular Linked List.jpg">
+<img src="circular-linked-list.jpg">
 
 ## Advantages:
 
@@ -414,7 +414,7 @@ Other operations are similar to SLL.
 - In Doubly-linked list each node has two links: one points to previous node and other points to next node.
 - The previous link of first node in the list points to a Null and the next link of last node points to Null.
 
-<img src="Doubly Linked List.jpg">
+<img src="doubly-linked-list.jpg">
 
 
 
@@ -620,7 +620,7 @@ class LinkedList<T> {
 - A doubly linked list is where each element has pointers to both the next element and the prior element.
 - A doubly circular linked list is where the last element next points back to the first element, and first element prev points to the last.
 
-<img src="Circular Doubly Linked List.jpg">
+<img src="circular-doubly-linked-list.jpg">
 
 ## Advantages
 

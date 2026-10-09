@@ -4,7 +4,7 @@
 - One way to implement the queue is to have a data structure where an array is used to store the elements in the queue.
 - And variables called front and rear keeps the location of corresponding element in the queue (array).
 
-<img src="Queue.jpg">
+<img src="queue.jpg">
 
 
 ## Queue Operations
@@ -64,7 +64,7 @@ class Queue<T> {
 - This makes circular queues more efficient in terms of memory usage.
   
 
-<img src="Circular Queue.jpg">
+<img src="circular-queue.jpg">
 
 
 # Double-Ended Queue
@@ -72,7 +72,7 @@ class Queue<T> {
 - Double-Ended Queue is a data structure in which elements may be added to or deleted from the front or the rear.
 - This differs from the QUEUE (FIFO), where elements can only be added to one end and removed from the other.
 
-<img src="Double Ended Queue.jpg">
+<img src="double-ended-queue.jpg">
 
 
 

@@ -8,4 +8,4 @@
 2. Min Heap
     - The value of the parent node should be `less than` or equal to either of its children.
 
-<img src="Heap.jpg">
+<img src="heap.jpg">

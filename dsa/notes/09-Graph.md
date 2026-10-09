@@ -8,7 +8,7 @@
     2. Directed Graph
     3. Weighted Graph
 
-<img src="Graph.jpg">
+<img src="graph.jpg">
 
 1. Undirected Graph:
     - Self loop is not allowd
@@ -40,8 +40,6 @@
     - Adjacency relationship is Symmetric if G is undirected, if G is directed the relationship is not symmetric.
 8. Connected Graph:
     - There is a path between every pair of vertices.
-
-​	<img src="Pasted image 20240601233843.png">
 
 ## Representation of Graphs
 
@@ -103,11 +101,11 @@
 
 - Topological sorting for ***Directed Acyclic Graph (DAG)*** is a linear ordering of vertices such that for every directed edge u-v, vertex ***u*** comes before ***v*** in the ordering.
 
-<img src="TS1.jpg">
+<img src="ts1.jpg">
 
-<img src="TS2.jpg">
+<img src="ts2.jpg">
 
-<img src="TS3.jpg">
+<img src="ts3.jpg">
 
 
 # Shortest Path Algorithms

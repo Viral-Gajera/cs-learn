@@ -41,7 +41,7 @@ Left child = 2
 Right Child = 3
 ```
 
-<img src="Array Representation of Binary Tree.jpg">
+<img src="array-representation-of-binary-tree.jpg">
 
 
 ## Linked List Representation of binary tree
@@ -49,7 +49,7 @@ Right Child = 3
 - In a linked list representation of a binary tree, each node in the tree is represented by a linked list node.
 - The linked list node has three fields: a pointer to the left child of the node, a pointer to the right child of the node, and a pointer to the data stored in the node.
 
-<img src="Linked List Representation of Binary Tree.jpg">
+<img src="linked-list-representation-of-binary-tree.jpg">
 
 
 
@@ -295,7 +295,7 @@ class Tree<T> {
 
 For every node n, All data in the left subtree of n is less than the data in the root of that subtree. All data in the right subtree of n is greater than the data in the root of that subtree.
 
-<img src="Binary Search Tree.jpg">
+<img src="binary-search-tree.jpg">
 
 **Note:**
 
@@ -415,7 +415,7 @@ Balance Factor:
 - Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
 - An AVL tree has balance factor calculated at every node.
 
-<img src="AVL Tree.jpg">
+<img src="avl-tree.jpg">
 
   
 
@@ -431,7 +431,7 @@ Balance Factor:
     - LR : new node is in the right subtree of the left subtree of A
     - RL : new node is in the left subtree of the right subtree of A
 
-<img src="AVL Tree - Insert Operation.jpg">
+<img src="avl-tree-insert-operation.jpg">
 
 ## Delete Operation
 
@@ -450,35 +450,21 @@ Balance Factor:
 
 # Red Black Tree
 
-<img src="RBT1.jpg">
+<img src="rbt1.jpg">
 
-<img src="RBT2.jpg">
+<img src="rbt2.jpg">
 
-<img src="RBT3.jpg">
+<img src="rbt3.jpg">
 
-<img src="RBT4.jpg">
+<img src="rbt4.jpg">
 
-<img src="RBT.jpg">
-
-<img src="Pasted image 20240521091239.png">
-
-<img src="Pasted image 20240521091245.png">
-
-<img src="Pasted image 20240521091506.png">
-
-<img src="Pasted image 20240521091553.png">
-
-<img src="Pasted image 20240521091635.png">
-
-<img src="Pasted image 20240521091654.png">
-
-<img src="RBT6.jpg">
+<img src="rbt.jpg">
 
 # Splay Tree
 
-![](ST1.jpg)
+![](st1.jpg)
 
-![](ST2.jpg)
+![](st2.jpg)
 
 
 
@@ -488,7 +474,7 @@ Balance Factor:
 - This notion easily generalizes to an M-way search tree, which has (M-1) values per node and M subtrees.
 - M is called the degree of the tree, For a binary search tree, M = 2.
 
-![](M Way Search Tree.jpg)
+![](m-way-search-tree.jpg)
 
 - In fact, it is not necessary for every node to contain exactly (M-1) values and have exactly M subtrees.
 - **In an M-way subtree a node can have anywhere from 1 to (M-1) values, and the number of (non-empty) subtrees.**
@@ -528,7 +514,7 @@ Balance Factor:
 
 - Similar to B trees, with a few differences. Leaf nodes are linked to each other.
 
-![](B+ Tree.jpg) 
+![](b-plus-tree.jpg) 
 
 ## Insert Operation
 
