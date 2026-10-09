@@ -1,11 +1,13 @@
-# Array Method
+# Arrays Method
 
 ```Java
 import java.util.Arrays;
 
-Arrays.sort(any [])
-Arrays.equal(any [], any [])
-Arrays.asList(any [])
+Arrays.sort(type[])
+Arrays.equal(type[], type[])
+
+Arrays.stream(array);
+Arrays.asList(type[])
 ```
 
 ## Arrays.sort()
@@ -15,12 +17,12 @@ Arrays.asList(any [])
 ```java
 Arrays.sort(type[] array)					// Sorting 1D Array
 Arrays.sort(type[][] array)					// Sorting 1D Array
-    
+
 Arrays.sort(type[] array, comparator)		// Sorting 1D Array
 Arrays.sort(type[][] array, comparator)		// Sorting 1D Array
 ```
 
-- Example    
+- Example
 
 ```Java
 class Solution {
@@ -31,7 +33,7 @@ class Solution {
 }
 ```
 
-Note: The comparator function must resturn integer value. 
+Note: The comparator function must resturn integer value.
 
 ## Arrays.asList(any [])
 
@@ -44,8 +46,3 @@ class Solution {
 	}
 }
 ```
-
-
-
-
-

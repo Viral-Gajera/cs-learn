@@ -5,8 +5,6 @@ String.join()
 String.format()
 ```
 
-
-
 ## String.join() Method
 
 - The join() method is used to join the elements of an array into a string.
@@ -18,8 +16,6 @@ String[] names = {"John", "Mary", "Bob"};
 String joinedNames = String.join(" - ", names);
 System.out.println(joinedNames); // Output: John - Mary - Bob
 ```
-
-
 
 ## String.format() Method
 
@@ -37,7 +33,6 @@ format	: format of the string
 args	: arguments for the format string. It may be zero or more.
 */
 ```
-
 
 - Format Specifiers :
 

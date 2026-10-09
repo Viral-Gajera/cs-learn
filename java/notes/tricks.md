@@ -12,22 +12,25 @@
 - Any changes made inside the function are actually reflected in the actual parameters of the caller.
 - Java: Object & Array passed by reference
 
-
 - Even thought string passed by reference, any changes made will not be reflected to original string because, it is immutable data structure.
-- Any assignment operation done, will not be reflexed to actual parameter, because it changes address (and original address remains as it is). 
+- Any assignment operation done, will not be reflexed to actual parameter, because it changes address (and original address remains as it is).
+
 # Type Conversion
 
 1. Any Type to String type
+
 ```Java
 String.valueOf(any type);
 ```
 
-2. String type to any type    
+2. String type to any type
+
 ```Java
 Type.valueOf(String s);
 ```
 
 Example:
+
 ```Java
 public class Main {
 	public static void main(String[] args) {
@@ -37,7 +40,7 @@ public class Main {
 		String.valueOf(25.5)
 		String.valueOf(true)
 		String.valueOf('v')
-		
+
 		// 2. String type to any type
 		Integer.valueOf("12")
 		Float.valueOf("12.5")
@@ -50,8 +53,6 @@ public class Main {
 	}
 }
 ```
-
-
 
 # Casting boolean
 
@@ -75,8 +76,6 @@ boolean b = (boolean) 25.13;	# error
 boolean b = (25 != 0);
 boolean b = (25.13 != 0);
 ```
-
-
 
 # Char to ASCII, and ASCII to Char
 
@@ -116,16 +115,12 @@ public class Main {
 }
 ```
 
-
-
 # float Flows
 
 ```java
 float x = 3.14;		# error
 float x = 3.14f;	# 🙂
 ```
-
-
 
 # Bitwise Operation Usage
 
@@ -137,10 +132,8 @@ float x = 3.14f;	# 🙂
         - Given a non-empty array of integers `nums`, every element appears _twice_ except for one. Find that single one.
         - Swap two numbers without using third variable.
 
-2. And (&) 
-   - `n & n-1 == n`
-
-
+2. And (&)
+    - `n & n-1 == n`
 
 # Format Specifier
 
@@ -226,33 +219,33 @@ Each format specifier ends with a conversion character that specifies the type o
 
 1. **Integer Formatting:**
 
-   ```java
-   System.out.printf("%d", 123); // prints "123"
-   ```
+    ```java
+    System.out.printf("%d", 123); // prints "123"
+    ```
 
 2. **Floating-point Formatting:**
 
-   ```java
-   System.out.printf("%.2f", 12.34567); // prints "12.35"
-   ```
+    ```java
+    System.out.printf("%.2f", 12.34567); // prints "12.35"
+    ```
 
 3. **String Formatting:**
 
-   ```java
-   System.out.printf("%s", "Hello"); // prints "Hello"
-   ```
+    ```java
+    System.out.printf("%s", "Hello"); // prints "Hello"
+    ```
 
 4. **Hexadecimal:**
 
-   ```java
-   System.out.printf("%x", 255); // prints "ff"
-   ```
+    ```java
+    System.out.printf("%x", 255); // prints "ff"
+    ```
 
 5. **Boolean:**
 
-   ```java
-   System.out.printf("%b", true); // prints "true"
-   ```
+    ```java
+    System.out.printf("%b", true); // prints "true"
+    ```
 
 ## Date and Time Conversion (t)
 
